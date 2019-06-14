@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: myweb1
   labels:
-    app: myweb
+    app: myweb1
 spec:
   containers:
-    - name: myweb
+    - name: myweb1
       image: kammana/myweb:6.0.0
       ports:
         - containerPort: 8080
