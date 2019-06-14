@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: myweb
-      image: kammana/myweb:v1
+      image: kammana/myweb:6.0.0
       ports:
         - containerPort: 8080
