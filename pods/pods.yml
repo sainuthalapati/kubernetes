@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodeapp
+  name: myweb
   labels:
-    app: nodeapp
+    app: myweb
 spec:
   containers:
-    - name: nodeapp
-      image: kammana/nodeapp:v1
+    - name: myweb
+      image: kammana/myweb:v1
       ports:
         - containerPort: 8080
